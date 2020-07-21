@@ -1,0 +1,220 @@
+body {
+    font-family: 'Montserrat';
+}
+
+/* Headings */
+
+h1 {
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat-bold';
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat-bold';
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* ------------- */
+/* --- Header --- */
+/* ------------- */
+
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Nav bar */
+
+.navbar  {
+    padding: 0 0 5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: light;
+    font-size: 1.2rem;
+}
+
+
+
+/* Download Button */
+
+.download-button {
+    margin: 5% 3% 5% 0; 
+}
+
+/* Title img */
+
+.title-img {
+    width: 60%;
+    transform:rotate(25deg);
+    -webkit-transform:rotate(25deg);
+    -moz-transform:rotate(25deg);
+    -ms-transform:rotate(25deg);
+    -o-transform:rotate(25deg);
+    -webkit-transform:;
+    position: absolute;
+    right: 30%; 
+
+}
+
+/* ------------- */
+/* --- Features --- */
+/* ------------- */
+
+#features {
+    padding: 10% 15%;
+    background-color: rgb(255, 255, 255,1);
+    z-index: 1;
+    position: relative;
+}
+
+.feature {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.feature i {
+    font-size: 4.5rem;
+    color: #ef8172;
+    margin-bottom: 30px;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+}
+
+.icon-check-circle:hover {
+    color: #994c41;
+}
+
+.icon-bullseye:hover {
+    color: red;
+}
+
+.icon-heart:hover {
+    color:#E1306C;
+}
+
+
+
+/* ------------- */
+/* --- Testimonials --- */
+/* ------------- */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 10% 15%;
+
+}
+
+/* ------------- */
+/* --- Press --- */
+/* ------------- */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 0px 20px 50px;
+}
+
+/* ------------- */
+/* --- Pricing --- */
+/* ------------- */
+
+#pricing {
+    padding: 10% 15%;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+/* ------------- */
+/* --- Call to Action --- */
+/* ------------- */
+
+#cta {
+    padding: 10% 15% 5%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#cta h2{
+    font-size: 3rem;
+}
+
+/* ------------- */
+/* --- Footer --- */
+/* ------------- */
+
+#footer {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #fff;
+    color: #8f8f8f;
+}
+
+.social-icons{
+    padding: 5px;
+}
+
+.social-icons a{
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+
+.social-icons i{
+    padding: 20px 10px;
+}
+
+.social-icons i:hover{
+    color: #4d4d4d;
+}
+
